@@ -234,5 +234,5 @@ app.get("/devCard",(req,res)=>{
 
 app.listen(3000,'0.0.0.0',()=>{
     console.log("Server listening on PORT 3000")
-    console.log("http://192.168.0.253:3000")
+    console.log("http://localhost:3000")
 })
