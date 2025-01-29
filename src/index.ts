@@ -116,7 +116,7 @@ app.get("/",(req,res)=>{
 }})
 })
 
-app.get("/devCard",(req,res)=>{
+app.get("/devCardWithMaskAndOverlay",(req,res)=>{
     res.json({status:200,
         data:{
            _id:"67987fcb7ca05dc417b8cb3e",
@@ -153,6 +153,111 @@ app.get("/devCard",(req,res)=>{
                     scale:1,
                     url:"https://storage.googleapis.com/zingcam-dev/mask/image/67987fcc7ca05dc417b8cb3f_820275835.png"
                  },
+                 overlay:{
+                    compressed_image:"https://storage.googleapis.com/zingcam-dev/background/image/67987fcc7ca05dc417b8cb3f_772521876.png",
+                    type:"IMAGE",
+                    value:"https://storage.googleapis.com/zingcam-dev/original/images/x2a06ymzpt5nj0rfnpu2nsk0.jpg"
+                 },
+                 playback_scale:1,
+                 rewards:{
+                    enabled:false
+                 },
+                 status:"PROCESSED",
+                 template_details:{
+                    class:0,
+                    enable_background:true,
+                    enable_mask:true,
+                    track_type:"CARD"
+                 },
+                 ui_elements:{
+                    banners:{
+                       primary_color:"#FFFFFF",
+                       secondary_color:"#007AFF",
+                       variant:0
+                    }
+                 },
+                 updated_at:1738047646849,
+                 variant:{
+                    class:0,
+                    offset:{
+                       x:0,
+                       y:0,
+                       z:0
+                    },
+                    scale:1,
+                    scale_axis:{
+                       x:0.78,
+                       y:2.08,
+                       z:0
+                    },
+                    track_type:"CARD"
+                 },
+                 videos:{
+                    compressed:"https://storage.googleapis.com/zingcam-dev/compressed/videos/67987fcc7ca05dc417b8cb3f_67426884.mp4",
+                    compressed_playback:"https://storage.googleapis.com/zingcam-dev/compressed/videos/67987fcc7ca05dc417b8cb3f_67426884.mp4",
+                    dash:"https://storage.googleapis.com/zingcam-dev/stream/67987fcc7ca05dc417b8cb3f_630632494/dash/master.mpd",
+                    hls:"https://storage.googleapis.com/zingcam-dev/stream/67987fcc7ca05dc417b8cb3f_399402896/hls/master.m3u8",
+                    original:"https://storage.googleapis.com/zingcam-dev/original/videos/tm9rlc1btyqeez9ndqp1wx5r.mp4"
+                 }
+              }
+           ],
+           feature_flags:{
+              enable_adaptive_streaming:true,
+              enable_android_streaming:true,
+              enable_geo_videos:false,
+              enable_ios_streaming:true,
+              enable_nextar:true,
+              enable_qr_button:false,
+              enable_recording:false,
+              enable_screen_capture:true,
+              enable_video_fullscreen:true
+           },
+           flam_logo:"https://storage.googleapis.com/zingcam/gixib4gxg8vsjirl0bxdo27y.png",
+           id:"67987fcb7ca05dc417b8cb3e",
+           logo_width:1,
+           name:"Fill Video Test 4",
+           publish:true,
+           scan:{
+              compressed_image_url:"https://storage.googleapis.com/zingcam-dev/compressed/images/67987fcc7ca05dc417b8cb3f_21393135.jpg",
+              image_url:"https://storage.googleapis.com/zingcam-dev/original/images/k3jwwgbzqj6bzvucq9p2h3m9.png",
+              scan_text:"SCAN THIS IMAGE"
+           },
+           short_code:"n9tgz3",
+           status:"PROCESSED",
+           track_type:"CARD",
+           updated_at:1738047613161
+        },
+        error:false
+     })
+})
+
+app.get("/devCardNone",(req,res)=>{
+    res.json({status:200,
+        data:{
+           _id:"67987fcb7ca05dc417b8cb3e",
+           copyright:{
+              content:"© Flamingos Technologies Inc., 2024. All Rights Reserved.",
+              show:true
+           },
+           created_at:1738047435756,
+           experiences:[
+              {
+                 aspect_ratio:1.7777777777777777,
+                 campaign_id:"67987fcb7ca05dc417b8cb3e",
+                 canvas:{
+                    android:0,
+                    ios:2100
+                 },
+                 created_at:1738047436355,
+                 id:"67987fcc7ca05dc417b8cb3f",
+                 images:{
+                    color_compressed:"https://storage.googleapis.com/zingcam-dev/compressed/images/67987fcc7ca05dc417b8cb3f_21393135.jpg",
+                    compressed:"https://storage.googleapis.com/zingcam-dev/grey/images/67987fcc7ca05dc417b8cb3f_18288455.jpg",
+                    feature_image:"https://storage.googleapis.com/zingcam/images/6798807ba2163d3ad42fd5b0.jpg",
+                    original:"https://storage.googleapis.com/zingcam-dev/original/images/k3jwwgbzqj6bzvucq9p2h3m9.png",
+                    std_compressed:"https://storage.googleapis.com/zingcam-dev/compressed/images/67987fcc7ca05dc417b8cb3f_312633581.png"
+                 },
+                 is_active:true,
                  playback_scale:1,
                  rewards:{
                     enabled:false
