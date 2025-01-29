@@ -154,7 +154,7 @@ app.get("/devCardWithMaskAndOverlay",(req,res)=>{
                     url:"https://storage.googleapis.com/zingcam-dev/mask/image/67987fcc7ca05dc417b8cb3f_820275835.png"
                  },
                  overlay:{
-                    compressed_image:"https://storage.googleapis.com/zingcam-dev/background/image/67987fcc7ca05dc417b8cb3f_772521876.png",
+                    compressed_image:"https://storage.googleapis.com/zingcam-dev/compressed/images/67987fcc7ca05dc417b8cb3f_21393135.jpg",
                     type:"IMAGE",
                     value:"https://storage.googleapis.com/zingcam-dev/original/images/x2a06ymzpt5nj0rfnpu2nsk0.jpg"
                  },
