@@ -153,11 +153,6 @@ app.get("/devCard",(req,res)=>{
                     scale:1,
                     url:"https://storage.googleapis.com/zingcam-dev/mask/image/67987fcc7ca05dc417b8cb3f_820275835.png"
                  },
-                 overlay:{
-                    compressed_image:"https://storage.googleapis.com/zingcam-dev/background/image/67987fcc7ca05dc417b8cb3f_772521876.png",
-                    type:"IMAGE",
-                    value:"https://storage.googleapis.com/zingcam-dev/original/images/x2a06ymzpt5nj0rfnpu2nsk0.jpg"
-                 },
                  playback_scale:1,
                  rewards:{
                     enabled:false
