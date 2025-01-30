@@ -436,6 +436,111 @@ app.get("/devCardForPrince",(req,res)=>{
     })
 })
 
+app.get("/devCardForSamarth",(req,res)=>{
+    res.json({
+        status: 200,
+            data: {
+                _id: "67987be27ca05dc417b8cb1c",
+                copyright: {
+                    content: "© Flamingos Technologies Inc., 2024. All Rights Reserved.",
+                    show: true
+                },
+                created_at: 1738046434285,
+                experiences: [
+                    {
+                        aspect_ratio: 1.7777777777777777,
+                        campaign_id: "67987be27ca05dc417b8cb1c",
+                        canvas: {
+                            android: 0,
+                            ios: 2100
+                        },
+                        created_at: 1738046434858,
+                        id: "67987be27ca05dc417b8cb1d",
+                        images: {
+                            color_compressed: "https://storage.googleapis.com/zingcam-dev/compressed/images/67987be27ca05dc417b8cb1d_18827399.jpg",
+                            compressed: "https://storage.googleapis.com/zingcam-dev/grey/images/67987be27ca05dc417b8cb1d_15115990.jpg",
+                            feature_image: "https://storage.googleapis.com/zingcam/images/67987c75a2163d3ad42fd5a6.jpg",
+                            original: "https://storage.googleapis.com/zingcam-dev/original/images/f11z3whnzk1hclapguj3ysxs.png",
+                            std_compressed: "https://storage.googleapis.com/zingcam-dev/compressed/images/67987be27ca05dc417b8cb1d_309737235.png"
+                        },
+                        is_active: true,
+                        overlay: {
+                            compressed_image: "https://storage.googleapis.com/zingcam-dev/background/image/67987be27ca05dc417b8cb1d_816603320.png",
+                            type: "IMAGE",
+                            value: "https://storage.googleapis.com/zingcam-dev/original/images/bd6hbtdea8yrzo4cvi65qqgq.jpg"
+                        },
+                        playback_scale: 1,
+                        rewards: {
+                            enabled: false
+                        },
+                        status: "PROCESSED",
+                        template_details: {
+                            class: 0,
+                            enable_background: true,
+                            enable_mask: false,
+                            track_type: "CARD"
+                        },
+                        ui_elements: {
+                            banners: {
+                                primary_color: "#FFFFFF",
+                                secondary_color: "#007AFF",
+                                variant: 0
+                            }
+                        },
+                        updated_at: 1738046616951,
+                        variant: {
+                            class: 0,
+                            offset: {
+                                x: 0,
+                                y: 0,
+                                z: 0
+                            },
+                            scale: 1,
+                            scale_axis: {
+                                x: 0.58,
+                                y: 1.55,
+                                z: 0
+                            },
+                            track_type: "CARD"
+                        },
+                        videos: {
+                            compressed: "https://storage.googleapis.com/zingcam-dev/compressed/videos/67987be27ca05dc417b8cb1d_156070126.mp4",
+                            compressed_playback: "https://storage.googleapis.com/zingcam-dev/compressed/videos/67987be27ca05dc417b8cb1d_156070126.mp4",
+                            dash: "https://storage.googleapis.com/zingcam-dev/stream/67987be27ca05dc417b8cb1d_699993056/dash/master.mpd",
+                            hls: "https://storage.googleapis.com/zingcam-dev/stream/67987be27ca05dc417b8cb1d_643939888/hls/master.m3u8",
+                            original: "https://storage.googleapis.com/zingcam-dev/original/videos/drg81794buh1i1em4stpdns9.mp4"
+                        }
+                    }
+                ],
+                feature_flags: {
+                    enable_adaptive_streaming: true,
+                    enable_android_streaming: true,
+                    enable_geo_videos: false,
+                    enable_ios_streaming: true,
+                    enable_nextar: true,
+                    enable_qr_button: false,
+                    enable_recording: false,
+                    enable_screen_capture: true,
+                    enable_video_fullscreen: false
+                },
+                flam_logo: "https://storage.googleapis.com/zingcam/gixib4gxg8vsjirl0bxdo27y.png",
+                id: "67987be27ca05dc417b8cb1c",
+                logo_width: 1,
+                name: "Extended Video Test 3",
+                publish: true,
+                scan: {
+                    compressed_image_url: "https://storage.googleapis.com/zingcam-dev/compressed/images/67987be27ca05dc417b8cb1d_18827399.jpg",
+                    image_url: "https://storage.googleapis.com/zingcam-dev/original/images/f11z3whnzk1hclapguj3ysxs.png",
+                    scan_text: "SCAN THIS IMAGE"
+                },
+                short_code: "ajqf9o",
+                status: "PROCESSED",
+                track_type: "CARD",
+                updated_at: 1738046583113
+            },
+            error: false
+    })
+})
 
 app.listen(3000,'0.0.0.0',()=>{
     console.log("Server listening on PORT 3000")
