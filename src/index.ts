@@ -464,6 +464,16 @@ app.get("/devCardForSamarth",(req,res)=>{
                             std_compressed: "https://storage.googleapis.com/zingcam-dev/compressed/images/67987be27ca05dc417b8cb1d_309737235.png"
                         },
                         is_active: true,
+                        mask:{
+                            compressed_url:"https://storage.googleapis.com/zingcam-dev/mask/image/67987fcc7ca05dc417b8cb3f_820275835.png",
+                            offset:{
+                               x:0,
+                               y:0,
+                               z:0
+                            },
+                            scale:1,
+                            url:"https://storage.googleapis.com/zingcam-dev/mask/image/67987fcc7ca05dc417b8cb3f_820275835.png"
+                         },
                         overlay: {
                             compressed_image: "https://storage.googleapis.com/zingcam-dev/background/image/67987be27ca05dc417b8cb1d_816603320.png",
                             type: "IMAGE",
