@@ -817,7 +817,7 @@ app.get("/devCardWithVoiceJson", (req, res) => {
                 enable_qr_button: false,
                 enable_recording: false,
                 enable_screen_capture: true,
-                enable_video_fullscreen: false
+                enable_video_fullscreen: true
             },
             flam_logo: "https://storage.googleapis.com/zingcam/gixib4gxg8vsjirl0bxdo27y.png",
             id: "67978a8c47e38a4b22065788",
