@@ -822,7 +822,7 @@ app.get("/devCardWithVoiceJson",(req,res)=>{
         },
         voice: {
             "hi": "aah",
-            "hello": "abc",
+            "hello": "c4d",
             "bye": "aad",
             "samsung": "xyz",
             "open": "start",
