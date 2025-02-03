@@ -569,14 +569,14 @@ app.get("/devCardWithVoiceJson", (req, res) => {
             experiences: [
                 {
                     voice: {
-                        "hi": "aah",
-                        "hello": "c4d",
-                        "bye": "aad",
-                        "samsung": "xyz",
-                        "open": "start",
-                        "close": "exit",
-                        "yes": "affirmative",
-                        "no": "negative"
+                        "hi": "aaa",
+                        "hello": "aab",
+                        "bye": "c4b",
+                        "samsung": "c2b",
+                        "open": "aac",
+                        "close": "c3b",
+                        "yes": "aae",
+                        "no": "aaa"
                     },
                     aspect_ratio: 2.8658536585365852,
                     campaign_id: "67978a8c47e38a4b22065788",
