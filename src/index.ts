@@ -576,7 +576,7 @@ app.get("/devCardWithVoiceJson", (req, res) => {
                         "open": "aac",
                         "close": "c3b",
                         "yes": "aae",
-                        "no": "aaa"
+                        "restart": "aaa"
                     },
                     aspect_ratio: 2.8658536585365852,
                     campaign_id: "67978a8c47e38a4b22065788",
